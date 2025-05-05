@@ -18,17 +18,12 @@ print(' ')
 
 #For the (above) for loop, which will print text and the variable var1 from 0 until it reaches 10, then it will happen again
 
-while var1<20:
-    if var1 == least_number:
+while var1<51:
+    if (var%3=1)
+        print(var1)
         var1=var1+1
-        print(var1)
-        continue
-    if var1==ultra_least_favorite_number:
-        var1= var1 + 1
-        print(var1)
         continue
     #  This continue sends the code reader back to before the indent
-
 
 #Will print the variable var1 from var1=5 until it reaches 20               
 print("Now we are printing variable 2 and 3. Variable 3 will print every integer 0,1,2,3,4. After Variable 3 prints, "
