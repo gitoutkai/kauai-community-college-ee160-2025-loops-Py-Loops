@@ -2,6 +2,7 @@
 #We are using these loops to print a list of integers, which will be from one set amount to another set amount
 #Created by Kaihehau "Kai" Goo (again for the second time) on May 4th 2025
 #may the fourth be with you
+#I am writing another sentence here so this goes to the top of the most recently editted.
 
 print("Var1 will print two times. It will print every integer from 0-10")
 var1=1
@@ -10,6 +11,7 @@ while var1<11:
     var1=var1+1
     if var1==11:
         continue
+#this should accomplish the first task of integers from 0-10
 
 for var1 in range(1,11):
   print(var1)
@@ -35,7 +37,7 @@ for var1 in range(0,20):
         count=count+1
         continue
 #This is setting the range and denominator for the equation   in this case we are dividing my 2
-#until the divident is less then 0.0001
+#until the divident is less then 0.0001, that would be the if var3> part
 
 if var3 < 0.0001:
     print(count,"rounds of dividin 12 by 2")
